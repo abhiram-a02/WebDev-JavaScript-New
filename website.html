@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Practice</title>
+    <title>HTML & CSS Review</title>
     <style>
+      /*This is a comment*/
       .red-button{
         background-color: red;
         color: white;
@@ -14,15 +15,40 @@
         color: white;
         border: none;
       }
+
+      .cart-button{background-color: yellow;}
+      .buy-button{background-color: orange;}
     </style>
   </head>
   <body>
+    <!--This is a comment.-->
     <button title = "Good Job!" class = "red-button" onclick="
         alert('Good Job');
       ">hello</button>
     <p>paragraph of <button class = "blue-button">hello</button> text</p>
+    <button>Click</button> 
+    <br><button>Abhiram</button>
+    <button>Blue</button>
+    <p>Hello, World! <br>Today I went to the grocery store to buy some eggs and vegetables.</p>
+    <p>UGG Tasman - Dusted Cocoa <br>Price: $110.00</p>
+    <button class = "cart-button" onclick = "alert('Added');">Add to Cart</button>
+    <button class = "buy-button" onclick = "
+      console.log('Loading...');
+      alert('Purchased');
+    ">Buy Now</button>
     <script>
-      alert('Hello');
+      //This is a comment.
+      //This creates a comment -> alert('Hello');
+
+      alert('Welcome!')
+
+      /*
+        Multiline
+        Comment
+      */     
+      
+      console.log(2 + 2);
+      console.log('some' + 'text');
     </script>
   </body>
 </html>
